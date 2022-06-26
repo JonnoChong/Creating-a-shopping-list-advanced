@@ -28,5 +28,11 @@
   
   li{
     cursor: pointer;
+    padding-right: 5px;
+  }
+
+  div {
+    display: flex;
+    padding: 5px;
   }
 
