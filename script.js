@@ -28,7 +28,7 @@ function addListAfterClick(){
         createListElement();
     }
 }
-//FUNCTION TO ADD LIST AFTER ENTER
+//FUNCTION TO ADD LIST AFTER ENTERED
 function addListAfterKeyPress(event){
     if (inputLength() > 0 && event.keyCode === 13){
         createListElement();
